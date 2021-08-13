@@ -16,7 +16,7 @@ import './style.css';
 export default function App() {
   return (
     <div className='wrapper'>
-    <Router>
+    <Router basename='/cursor-react-router'>
         <nav className='menu'>
           <div className='menu-inner'>
           <ul className='menu-list'>
