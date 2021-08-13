@@ -1,0 +1,4 @@
+.posts-row{
+    flex-direction: column;
+    align-items: center;
+}

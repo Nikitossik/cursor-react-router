@@ -1,0 +1,9 @@
+.photo{
+    flex: 1 0 50%;
+    padding: 0 10px 10px 0;
+}
+
+.image{
+    max-width: 100%;
+    object-fit: cover;
+}

@@ -1,0 +1,52 @@
+.contacts-box {
+    background: rgba(124, 56, 201, 0.50);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(10.5px);
+    -webkit-backdrop-filter: blur(10.5px);
+    border-radius: 10px;
+    padding: 30px 20px 15px 20px;
+    max-width: 560px;
+    margin: 0 auto;
+}
+
+.contacts-title {
+    font-size: 1.5em;
+    font-weight: 700;
+    color: #222;
+    line-height: 1.5;
+    margin: 0 0 15px 0;
+    color: #fff;
+    font-weight: 400;
+}
+
+.contacts-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.message{
+    height: 100%;
+    padding-top: 50px;
+}
+
+.message__title{
+    text-align: center;
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: 400;
+    font-style: italic;
+}
+/* 
+.contacts-list::-webkit-scrollbar {
+    width: 0.5em;
+}
+
+.contacts-list::-webkit-scrollbar-track {
+    background: rgba(255,255,255,0.4);
+    border-radius: 3px;
+}
+
+.contacts-list::-webkit-scrollbar-thumb {
+    background-color: #592891;
+    border-radius: 3px;
+} */
