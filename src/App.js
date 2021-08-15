@@ -21,7 +21,7 @@ export default function App() {
                     <div className='menu-inner'>
                         <ul className='menu-list'>
                             <li className='menu-list__item'>
-                                <NavLink activeClassName='menu__link--active' className='menu__link' exact to='/cursor-react-router/home'
+                                <NavLink activeClassName='menu__link--active' className='menu__link' exact to='/cursor-react-router/'
                                 >Home</NavLink>
                             </li>
                             <li className='menu-list__item'>
@@ -39,7 +39,7 @@ export default function App() {
                 </nav>
 
                 <Switch>
-                    <Route exact path='/cursor-react-router/home'>
+                    <Route exact path='/cursor-react-router/'>
                         <Homepage />
                     </Route>
                     <Route path='/cursor-react-router/posts'>
