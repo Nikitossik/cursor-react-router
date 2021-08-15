@@ -1,6 +1,6 @@
 .wrapper{
     min-height: 100vh;
-    background: url('../../assets/images/wrapper-background.jpg') no-repeat center / cover fixed;
+    background: url('./assets/images/wrapper-background.jpg') no-repeat center / cover fixed;
 }  
 
 .menu{
