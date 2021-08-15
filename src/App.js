@@ -21,34 +21,34 @@ export default function App() {
                     <div className='menu-inner'>
                         <ul className='menu-list'>
                             <li className='menu-list__item'>
-                                <NavLink activeClassName='menu__link--active' className='menu__link' exact to='/cursor-react-router/'
+                                <NavLink activeClassName='menu__link--active' className='menu__link' exact to='cursor-react-router/'
                                 >Home</NavLink>
                             </li>
                             <li className='menu-list__item'>
-                                <NavLink activeClassName='menu__link--active' className='menu__link' to='/cursor-react-router/posts'
+                                <NavLink activeClassName='menu__link--active' className='menu__link' to='cursor-react-router/posts'
                                 >Posts</NavLink>
                             </li>
                             <li className='menu-list__item'>
-                                <NavLink activeClassName='menu__link--active' className='menu__link' to='/cursor-react-router/photos'>Photos</NavLink>
+                                <NavLink activeClassName='menu__link--active' className='menu__link' to='cursor-react-router/photos'>Photos</NavLink>
                             </li>
                             <li className='menu-list__item'>
-                                <NavLink activeClassName='menu__link--active' className='menu__link' to='/cursor-react-router/contacts'>Contacts</NavLink>
+                                <NavLink activeClassName='menu__link--active' className='menu__link' to='cursor-react-router/contacts'>Contacts</NavLink>
                             </li>
                         </ul>
                     </div>
                 </nav>
 
                 <Switch>
-                    <Route exact path='/cursor-react-router/'>
+                    <Route exact path='cursor-react-router/'>
                         <Homepage />
                     </Route>
-                    <Route path='/cursor-react-router/posts'>
+                    <Route path='cursor-react-router/posts'>
                         <PostsPage />
                     </Route>
-                    <Route path='/cursor-react-router/photos'>
+                    <Route path='cursor-react-router/photos'>
                         <PhotosPage />
                     </Route>
-                    <Route path='/cursor-react-router/contacts'>
+                    <Route path='cursor-react-router/contacts'>
                         <ContactsPage />
                     </Route>
                 </Switch>
