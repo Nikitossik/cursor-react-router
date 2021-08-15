@@ -11,7 +11,7 @@ import PostsPage from "./components/PostsPage";
 import PhotosPage from './components/PhotosPage';
 import ContactsPage from './components/ContactsPage';
 
-import './style.css';
+import './App.css';
 
 export default function App() {
     return (
